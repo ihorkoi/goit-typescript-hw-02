@@ -4,8 +4,8 @@
 */
 
 interface KeyValuePair {
-  key;
-  value;
+  key: NonNullable<unknown>;
+  value: any;
 }
 
 export {};
